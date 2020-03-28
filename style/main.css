@@ -1,0 +1,79 @@
+/* Header/logo Title */
+.header {
+    background: #007bff;
+    color: white;
+    border-radius: 0;
+    text-align: center;
+    height: 100px;
+
+}
+.header .imgIzq {
+    width: 80px;
+    width: 80px;
+    display: inline-block;
+    float:left;
+    margin-right: 10px;
+}
+.header .imgDch {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float:left;
+
+}
+.pageTitle {
+    display: inline-block;
+    float:left;
+    margin-right: 10px;
+}
+.pageTitle h1 {
+    font-size: 40px;
+}
+.title {
+    display: inline-block;
+    margin-top: 10px;
+}
+.page-footer {
+    background-color: #007bff;
+}
+.page-footer a{
+    color: black;
+}
+#classificationTable {
+    border: black 3px solid;
+    margin: 25px auto 25px auto;
+}
+#tableHead {
+    border: black 1px solid;
+}
+#classification {
+    padding-top: 15px;
+    bottom: 15px;
+}
+.tableNumberElement {
+    text-align: center;
+}
+.championsZone {
+    background-color: forestgreen;
+}
+.europaZone {
+    background-color: yellow;
+}
+.secondLeagueZone{
+    background-color: red;
+}
+.positionElement{
+    border: black 1px solid;
+}
+.classification tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.teamLogo {
+    height: 25px;
+    width: 25px;
+}
+@media (max-width: 600px) {
+    .header img {
+        display:none !important;
+    }
+}
