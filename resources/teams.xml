@@ -7,7 +7,7 @@
         <lose>11</lose>
         <scoredGoals>29</scoredGoals>
         <recivedGoals>37</recivedGoals>
-        <img>alaves.png</img>
+        <id>263</id>
     </team>
     <team>
         <name>Athletic</name>
@@ -16,7 +16,7 @@
         <lose>8</lose>
         <scoredGoals>29</scoredGoals>
         <recivedGoals>23</recivedGoals>
-        <img>ath.png</img>
+        <id>77</id>
     </team>
     <team>
         <name>Atlético</name>
@@ -25,7 +25,7 @@
         <lose>4</lose>
         <scoredGoals>31</scoredGoals>
         <recivedGoals>21</recivedGoals>
-        <img>atm.png</img>
+        <id>78</id>
     </team>
     <team>
         <name>Barcelona</name>
@@ -34,7 +34,7 @@
         <lose>5</lose>
         <scoredGoals>63</scoredGoals>
         <recivedGoals>31</recivedGoals>
-        <img>barca.png</img>
+        <id>81</id>
     </team>
     <team>
         <name>Betis</name>
@@ -43,7 +43,7 @@
         <lose>10</lose>
         <scoredGoals>38</scoredGoals>
         <recivedGoals>43</recivedGoals>
-        <img>betis.png</img>
+        <id>90</id>
     </team>
     <team>
         <name>Celta</name>
@@ -52,7 +52,7 @@
         <lose>11</lose>
         <scoredGoals>22</scoredGoals>
         <recivedGoals>34</recivedGoals>
-        <img>celta.png</img>
+        <id>558</id>
     </team>
     <team>
         <name>Eibar</name>
@@ -61,7 +61,7 @@
         <lose>14</lose>
         <scoredGoals>27</scoredGoals>
         <recivedGoals>41</recivedGoals>
-        <img>eibar.png</img>
+        <id>278</id>
     </team>
     <team>
         <name>Espanyol</name>
@@ -70,7 +70,7 @@
         <lose>15</lose>
         <scoredGoals>15</scoredGoals>
         <recivedGoals>23</recivedGoals>
-        <img>espanyol.png</img>
+        <id>80</id>
     </team>
     <team>
         <name>Getafe</name>
@@ -79,7 +79,7 @@
         <lose>7</lose>
         <scoredGoals>37</scoredGoals>
         <recivedGoals>25</recivedGoals>
-        <img>getafe.png</img>
+        <id>82</id>
     </team>
     <team>
         <name>Granada</name>
@@ -88,7 +88,7 @@
         <lose>11</lose>
         <scoredGoals>33</scoredGoals>
         <recivedGoals>32</recivedGoals>
-        <img>granada.png</img>
+        <id>83</id>
     </team>
     <team>
         <name>Leganes</name>
@@ -97,7 +97,7 @@
         <lose>14</lose>
         <scoredGoals>14</scoredGoals>
         <recivedGoals>21</recivedGoals>
-        <img>leganes.png</img>
+        <id>745</id>
     </team>
     <team>
         <name>Levante</name>
@@ -106,7 +106,7 @@
         <lose>14</lose>
         <scoredGoals>32</scoredGoals>
         <recivedGoals>40</recivedGoals>
-        <img>levante.png</img>
+        <id>88</id>
     </team>
     <team>
         <name>Madrid</name>
@@ -115,7 +115,7 @@
         <lose>3</lose>
         <scoredGoals>49</scoredGoals>
         <recivedGoals>19</recivedGoals>
-        <img>madrid.png</img>
+        <id>86</id>
     </team>
     <team>
         <name>Mallorca</name>
@@ -124,7 +124,7 @@
         <lose>16</lose>
         <scoredGoals>28</scoredGoals>
         <recivedGoals>44</recivedGoals>
-        <img>mallorca.png</img>
+        <id>89</id>
     </team>
     <team>
         <name>Osasuna</name>
@@ -133,7 +133,7 @@
         <lose>9</lose>
         <scoredGoals>34</scoredGoals>
         <recivedGoals>38</recivedGoals>
-        <img>osasuna.png</img>
+        <id>79</id>
     </team>
     <team>
         <name>Real Sociedad</name>
@@ -142,7 +142,7 @@
         <lose>9</lose>
         <scoredGoals>45</scoredGoals>
         <recivedGoals>33</recivedGoals>
-        <img>real.png</img>
+        <id>92</id>
     </team>
     <team>
         <name>Sevilla</name>
@@ -151,7 +151,7 @@
         <lose>6</lose>
         <scoredGoals>39</scoredGoals>
         <recivedGoals>29</recivedGoals>
-        <img>sevilla.png</img>
+        <id>559</id>
     </team>
     <team>
         <name>Valencia</name>
@@ -160,7 +160,7 @@
         <lose>7</lose>
         <scoredGoals>38</scoredGoals>
         <recivedGoals>39</recivedGoals>
-        <img>valencia.png</img>
+        <id>95</id>
     </team>
     <team>
         <name>Valladolid</name>
@@ -169,7 +169,7 @@
         <lose>10</lose>
         <scoredGoals>23</scoredGoals>
         <recivedGoals>33</recivedGoals>
-        <img>valladolid.png</img>
+        <id>250</id>
     </team>
     <team>
         <name>Villareal</name>
@@ -178,6 +178,6 @@
         <lose>11</lose>
         <scoredGoals>44</scoredGoals>
         <recivedGoals>38</recivedGoals>
-        <img>villareal.png</img>
+        <id>94</id>
     </team>
 </teams>

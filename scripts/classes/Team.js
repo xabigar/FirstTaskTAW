@@ -1,5 +1,5 @@
 class Team {
-    constructor(name, win, draw, lose, scoredGoals, receivedGoals, imgFile) {
+    constructor(name, win, draw, lose, scoredGoals, receivedGoals, id) {
         this.name = name;
         this.win = parseInt(win);
         this.draw = parseInt(draw);
@@ -9,7 +9,7 @@ class Team {
         this.points = this.calcPoints();
         this.playedGames = this.calcPlayedGames();
         this.goalDifference = this.calcGoalDifference();
-        this.imgFile = imgFile
+        this.id = id
     }
     calcPoints () {
         return this.win * 3 + this.draw;
