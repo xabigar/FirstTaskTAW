@@ -2,6 +2,7 @@ $( document ).ready(function() {
     initTable()
 });
 
+// Gets the xml file, creates the teams and call a function to create the table
 function initTable () {
     let teams
     let localStorageTeams = window.localStorage.getItem("teams");
@@ -17,6 +18,7 @@ function initTable () {
     }
 }
 
+// Completes the classification table
 function completeTable(teams) {
     let sortedTeams = teams.sort((team2, team1) => (
         team1.points - team2.points

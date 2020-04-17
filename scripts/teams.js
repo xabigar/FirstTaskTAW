@@ -1,15 +1,20 @@
+// init the page and events
 $( document ).ready( function() {
     initTeams()
     document.getElementById("teamList").addEventListener("change", changeTeam);
     document.getElementById("btnFavourite").addEventListener("click", saveAsFavourite);
 });
 
+// Called when a team is selected
+// Get the selected team and call the method to call the API
 function changeTeam() {
     let select = document.getElementById("teamList")
     let selected = select.options[select.selectedIndex].value;
     getTeamInfo(selected)
 }
 
+// Called when the save as favourite button is clicked
+// Save the team as favourite team
 function saveAsFavourite() {
     let select = document.getElementById("teamList")
     let selected = select.options[select.selectedIndex].value;
@@ -17,6 +22,7 @@ function saveAsFavourite() {
     document.getElementById("btnFavourite").blur()
 }
 
+// inits the page
 function initTeams () {
     let teams
     let localStorageTeams = window.localStorage.getItem("teams")
@@ -32,16 +38,23 @@ function initTeams () {
     }
 }
 
+// Populates the content of the dropdown list
 function populateDropdownList (teams) {
+    let sortedTeams = teams.sort(function (team2, team1) {
+    if(team1.name < team2.name) { return 1 }
+    if(team1.name > team2.name) { return -1 }
+    return 0
+    })
     let select = document.getElementById("teamList");
-    for (let i=0;i<teams.length;i++) {
-        let team = teams[i]
+    for (let i=0;i<sortedTeams.length;i++) {
+        let team = sortedTeams[i]
         let element = document.createElement("option")
         element.textContent = team.name
         element.value = team.id
         select.appendChild(element)
     }
     let favouriteTeam = window.localStorage.getItem("favouriteTeam")
+    // If a favourite team is saved, it is selected by default
     if(favouriteTeam==undefined || favouriteTeam==null ){
         let selected = select.options[select.selectedIndex].value;
         getTeamInfo(selected)
@@ -51,6 +64,7 @@ function populateDropdownList (teams) {
     }
 }
 
+// Calls the API to get the info of the selected team
 function getTeamInfo (id) {
     var settings = {
         "url": "https://api.football-data.org/v2/teams/"+id,
@@ -66,6 +80,7 @@ function getTeamInfo (id) {
     });
 }
 
+// Set the information of the team on the page
 function setTeam (teamInfo) {
     let selectedTeamImg = document.getElementById("selectedTeamPhoto");
     selectedTeamImg.src = '../img/teams/' + teamInfo.id + '.png'

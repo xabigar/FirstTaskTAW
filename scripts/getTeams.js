@@ -1,3 +1,4 @@
+// It creates the list of team objects from the XML resource
 function getTeamsFromXML(callback) {
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -26,7 +27,6 @@ function createTeams(xml) {
         let teamObject = new Team(name, win, draw, lose, scoredGoals, receivedGoals, id)
         teamsObjects.push(teamObject)
     }
-
     window.localStorage.setItem("teams", JSON.stringify(teamsObjects));
     console.log(JSON.stringify(teamsObjects))
     return teamsObjects

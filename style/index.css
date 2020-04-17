@@ -1,6 +1,11 @@
+/* Configuration for the welcome image */
 .defaultWelcomeLogo {
     height: 100%;
     width: 100%;
+}
+
+.welcomeDiv {
+    margin-top: 15px;
 }
 
 .teamWelcomeLogo {
@@ -11,10 +16,7 @@
     display: block;
 }
 
-.welcomeDiv {
-    margin-top: 15px;
-}
-
+/* Set the border to separate the divs about the page members information */
 .B {
     border-right: thick solid #233206;
     border-left: thick solid #233206;
@@ -22,15 +24,19 @@
     border-right-width: 1px;
 }
 
+/* Size of the social network logos */
 .socialNetworkLogo {
     height: 25px;
     width: 25px;
 }
 
+/* hr which divides two main containers of the index page */
 hr {
     background-color: #233206;
 }
 
+/* When the page becomes small, change the borders from horizonatal to vertical */
+/* Set the location map before the social network information changing the order */
 @media (max-width: 768px) {
 
     .A {

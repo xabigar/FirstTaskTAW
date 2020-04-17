@@ -2,6 +2,7 @@ $( document ).ready(function() {
     getScoreTable(20)
 });
 
+// Call the API to get the best goal scorers
 function getScoreTable(limit) {
     var settings = {
         "url": "http://api.football-data.org/v2/competitions/PD/scorers?limit=" + limit,
@@ -17,6 +18,7 @@ function getScoreTable(limit) {
     });
 }
 
+// Fill the classification table
 function completeScoreTable(scorers) {
     let classification = document.getElementById('scoreTableBody')
     for (let i=0;i<scorers.length;i++) {

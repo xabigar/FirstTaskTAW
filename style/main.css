@@ -1,23 +1,11 @@
-/* Header/logo Title */
+/* Common css to all the web pages */
+/* Body */
 body {
     background-color: #F6F7F0;
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-}
-html {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
 }
 
-#wrapper {
-    padding-bottom: 50px;
-    min-height: calc(100% - 50px);
-    position: relative;
-}
-
-.header {
+/* Header */
+#header {
     /*background: #007bff;*/
     background: #47650B;
     color: white;
@@ -26,52 +14,51 @@ html {
     height: 100px;
 
 }
-.header .imgLeft {
+
+#header .imgLeft {
     width: 80px;
     width: 80px;
     display: inline-block;
     float:left;
     margin-right: 10px;
 }
-.header .imgRight {
+
+#header .imgRight {
     width: 80px;
     height: 80px;
     display: inline-block;
     float:left;
 
 }
+
 .pageTitle {
     display: inline-block;
     float:left;
     margin-right: 10px;
 }
+
 .pageTitle h1 {
     font-size: 40px;
 }
+
 .title {
     display: inline-block;
     margin-top: 10px;
 }
 
-footer {
-    background-color: #47650B;
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.page-footer a{
-    color: white;
-}
-
+/* Remove balls from the header when the page is small */
 @media (max-width: 768px) {
     .header img {
         display:none !important;
     }
 }
 
-.footer-copyright{
+/* Footer */
+footer {
+    background-color: #47650B;
+    margin-top: 30px;
+}
+
+.page-footer {
     color: white;
 }
